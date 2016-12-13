@@ -12,12 +12,12 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
 
     <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
   </head>
 
   <body class="<%= page_classes %>">
     <%= partial 'layouts/partials/navbar' %>
     <%= yield %>
     <%= partial 'layouts/partials/footer' %>
-    <%= javascript_include_tag :all %>
   </body>
 </html>
