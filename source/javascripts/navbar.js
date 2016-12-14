@@ -1,12 +1,11 @@
 $(document).ready(function() {
-
   $(window).scroll(function () {
-    console.log('test navbar js')
+    console.log('test navbar js');
     if ($(window).scrollTop() > 65) {
-      $('#full-navbar').removeClass('transparent-navbar');
+      $('#index-navbar').removeClass('index');
     }
     if ($(window).scrollTop() < 65) {
-      $('#full-navbar').addClass('transparent-navbar');
+      $('#index-navbar').addClass('index');
     }
   });
 });
