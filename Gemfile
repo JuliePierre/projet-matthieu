@@ -7,6 +7,8 @@ gem "middleman", "~>3.4.1"
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.3.0"
 
+gem 'middleman-deploy', '~> 1.0'
+
 gem 'materialize-sass'
 gem 'jquery-middleman'
 
