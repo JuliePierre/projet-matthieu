@@ -1,18 +1,18 @@
-  <nav>
-  <div class="nav-wrapper container">
-    <a href="#!" class="brand-logo">Logo</a>
+<nav id="<%= page_classes %>-navbar", class="<%= page_classes %> navbar">
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Matthieu Perraut</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
+      <li><%= link_to "Home", "/" %></li>
+      <li><%= link_to "Le skipper", "matthieu.html" %></li>
+      <li><%= link_to "Le projet", "le-projet.html" %></li>
+      <li><%= link_to "Actus", "actus.html" %></li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
+      <li><%= link_to "Home", "/" %></li>
+      <li><%= link_to "Le skipper", "matthieu.html" %></li>
+      <li><%= link_to "Le projet", "le-projet.html" %></li>
+      <li><%= link_to "Actus", "actus.html" %></li>
     </ul>
   </div>
 </nav>

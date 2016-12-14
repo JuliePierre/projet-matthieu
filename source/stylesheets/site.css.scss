@@ -2,3 +2,8 @@
 @import 'normalize';
 @import 'materialize/components/color';
 @import 'materialize';
+@import 'variables';
+
+@import "pages/*";
+@import "components/*";
+@import "layout/*";
