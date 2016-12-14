@@ -37,6 +37,8 @@ GEM
     eventmachine (1.2.1)
     execjs (2.7.0)
     ffi (1.9.14)
+    figaro (1.1.1)
+      thor (~> 0.14)
     haml (4.0.7)
       tilt
     hike (1.2.3)
@@ -134,6 +136,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  figaro
   jquery-middleman
   materialize-sass
   middleman (~> 3.4.1)
