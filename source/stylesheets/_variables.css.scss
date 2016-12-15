@@ -27,6 +27,11 @@ p.small {
   font-size: 14px;
 }
 
+.container .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .small-container {
     width: 50% !important;
 }
@@ -174,4 +179,20 @@ p.small {
       }
     }
   }
+}
+
+/* ==========================================================================
+   LISTES
+   ========================================================================== */
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  div {
+    flex: 0 0 auto;
+  }
+}
+
+.flexbox i {
+  margin-right : 25px;
 }
