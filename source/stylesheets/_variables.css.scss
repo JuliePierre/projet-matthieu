@@ -198,14 +198,23 @@ p.small {
    LISTES
    ========================================================================== */
 
-.flexbox {
+.flexbox-infos {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   div {
-    flex: 0 0 auto;
+    margin-top: 40px;
   }
 }
 
-.flexbox i {
-  margin-right : 25px;
+.first-item,
+.second-item,
+.third-item {
+  flex: 0 1 33%;
+}
+
+.fourth-item,
+.fifth-item {
+  flex: 0 0 50%;
 }
