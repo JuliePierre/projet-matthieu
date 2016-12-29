@@ -1,7 +1,6 @@
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
-  color: $grey;
 }
 
 .section-header {
@@ -9,9 +8,5 @@
 }
 
 .blue {
-  background-color: #0277bd !important;
-}
-
-.section.blue p {
-  color: white !important;
+  background-color: $bg-blue !important;
 }

@@ -8,3 +8,56 @@
 #newsletter-banner {
   height: 655px;
 }
+
+#mini-transat-bg {
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#mapmonde-bg {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+#mapmonde-item {
+  img {
+    height: 1000px;
+    width: auto;
+    margin-top: -200px;
+    margin-bottom: -200px;
+  }
+}
+
+#mapmonde-content-2 {
+  margin-right: 130px;
+}
+
+#skipper-bg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 130px;
+  padding-right: 130px;
+  .skipper-bg-item {
+    flex: 0 0 50%;
+  }
+}
+
+#photo-matthieu {
+  border-radius: 50%;
+  height: 400px;
+  width: auto;
+  flex: 0 0 50%;
+}
+
+
+

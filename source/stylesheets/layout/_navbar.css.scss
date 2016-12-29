@@ -6,7 +6,7 @@ $navbar-brand-font-size: 2.1rem !default;
 
 nav .brand-logo {
   position: absolute;
-  color: $blue;
+  color: white;
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
@@ -16,7 +16,7 @@ nav .brand-logo {
 nav ul a {
   transition: background-color .3s;
   font-size: 1rem;
-  color: $blue;
+  color: white;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -24,11 +24,12 @@ nav ul a {
 
 .navbar {
   padding-left: 15px;
-  background-color: white;
-  color: #1781b1 !important;
+  background-color: $bg-blue;
+  color: white !important;
   // position: fixed;
   transition: opacity 0.6s ease-out, margin 0.6s ease-out;
   z-index: 1;
+  box-shadow: unset;
 }
 
 #index-navbar {

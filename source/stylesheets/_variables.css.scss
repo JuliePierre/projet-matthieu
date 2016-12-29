@@ -2,22 +2,20 @@
    CHARTE GRAPHIQUE
    ========================================================================== */
 
-$blue: #1781b1;
-$grey: #333333;
+$bg-blue: #1F6CB0;
+$light-blue: #70A3C4;
+$brand-grey: #E7E8F5;
+$dark-blue: #4E4E6A;
 
 /* ==========================================================================
    UTILITIES ajoutées par Julie
    ========================================================================== */
-
 body {
-  color: $blue !important;
-  p {
-    color: $grey !important;
-  }
+  color: white;
 }
 
 h1{
-  font-size: 50px;
+  font-size: 70px;
 }
 
 h2 {
@@ -26,6 +24,8 @@ h2 {
 
 h3 {
   font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h4 {
