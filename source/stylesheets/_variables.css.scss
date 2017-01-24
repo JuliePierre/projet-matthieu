@@ -2,42 +2,78 @@
    CHARTE GRAPHIQUE
    ========================================================================== */
 
-$bg-blue: #1F6CB0;
+
 $light-blue: #70A3C4;
 $brand-grey: #E7E8F5;
-$dark-blue: #4E4E6A;
+
+/* donné par Matthieu */
+$bg-blue: #05486D;
+$dark-blue: #023351;
+$brand-red: #C43433;
 
 /* ==========================================================================
    UTILITIES ajoutées par Julie
    ========================================================================== */
 body {
   color: white;
+  font-family: 'Muli', sans-serif;
 }
 
 h1{
-  font-size: 70px;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 1.6rem;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 p.small {
-  font-size: 14px;
+  font-size: 0.8rem;
+}
+
+/* ==========================================================================
+   ELEMENTS GRAPHIQUES DE BASE
+   ========================================================================== */
+.brand-red-text {
+  color: $brand-red !important;
+}
+
+.leger {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.semi-gras {
+  font-weight: 600;
+}
+
+.gras {
+  font-weight: 700;
+}
+
+.tres-gras {
+  font-weight: 800;
+}
+
+.italique {
+  font-style: italic;
 }
 
 .container .row {
@@ -200,12 +236,9 @@ p.small {
 
 .flexbox-infos {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-between;
-  div {
-    margin-top: 40px;
-  }
 }
 
 .first-item,

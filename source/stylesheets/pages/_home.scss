@@ -15,29 +15,26 @@
 }
 
 #mapmonde-bg {
-  padding-top: 0px;
-  padding-bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  h3 {
+  h4 {
     margin-top: 100px;
     margin-bottom: 100px;
   }
 }
 
 #mapmonde-item {
+  flex: 0 0 50%;
   img {
-    height: 1000px;
-    width: auto;
     margin-top: -200px;
     margin-bottom: -200px;
   }
 }
 
-#mapmonde-content-2 {
-  margin-right: 130px;
+#mapmone-content-1, #mapmonde-content-2 {
+  flex: 0 0 25%;
 }
 
 #skipper-bg{
@@ -45,7 +42,6 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 130px;
   .skipper-bg-item {
     flex: 0 0 50%;
   }
@@ -53,10 +49,25 @@
 
 #photo-matthieu {
   border-radius: 50%;
+  border: 2px solid white;
   height: 400px;
   width: auto;
   flex: 0 0 50%;
 }
 
+.sailing-icons {
+  width: 225px;
+  height: auto;
+}
 
+.citation {
+  margin-top: 45px;
+  display: inline-block;
+  p {
+    text-align: right !important;
+  }
+}
 
+.counter, .quick-counter, .counter-number {
+  font-size: 3rem !important;
+}

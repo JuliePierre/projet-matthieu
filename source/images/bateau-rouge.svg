@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="3440.9 1008 595.3 841.9" enable-background="new 3440.9 1008 595.3 841.9" xml:space="preserve">
-<g id="Fond_bleu">
+	 viewBox="3623 1302.9 49 64.7" enable-background="new 3623 1302.9 49 64.7" xml:space="preserve">
+<g id="Fond_bleu" display="none">
+	<rect x="3623" y="1302.9" display="inline" fill="#033352" width="49" height="64.7"/>
 </g>
 <g id="Calque_1">
+	<g>
+		<path fill="#C43433" d="M3664,1363.3c0,0-0.1,0-0.2,0c-5.5-0.1-11,0-16.5,0c-5.5,0-11-0.1-16.5,0c-2,0-2.4-0.6-2.4-2.5
+			c0-1.7,0.3-2.4,2.2-2.4c1.1,0,2.1,0,3.2,0c10.1,0.1,20.1,0.1,30.2,0c2,0,2.2,0.9,2.2,2.4C3666.2,1362.6,3665.8,1363.3,3664,1363.3
+			z"/>
+		<path fill="#C43433" d="M3651.9,1318.3c3.9,12.3,7.9,24.7,12,37.4c-3.9,0-7.5,0-11.1,0c-1.2,0-1.4-0.7-1.4-1.7
+			C3651.3,1342.2,3651.3,1330.3,3651.9,1318.3z"/>
+		<path fill="#C43433" d="M3649,1309.8c0,6.9,0,13.9,0,20.9c0,0-0.1,0-0.2,0c0,7.4-0.1,14.7,0,22.1c0.1,2.4-0.8,3-3,2.9
+			c-4-0.2-8-0.1-12.1,0c-1.3,0-2-0.2-1.9-1.7c0.8-14,2.1-27.8,7.4-41c0.8-2,2-3.8,3-5.7c0.4-0.8,1-1.2,1.8-1.4
+			c0.3,0,0.6-0.1,0.9-0.1C3649,1305.7,3649,1305.7,3649,1309.8z"/>
+	</g>
 </g>
 <g id="_x30_">
-	<g id="LWPOLYLINE_153_">
-		<g id="XMLID_16_">
-			<g>
-				<path fill="#C43433" d="M3801.8,1484v7.8c0,2.6-2.1,4.6-4.6,4.6h-140.8c-2.5,0-4.6-2-4.6-4.6v-7.8c0-2.5,2.1-4.6,4.6-4.6h140.8
-					C3799.7,1479.4,3801.8,1481.4,3801.8,1484z"/>
-				<path fill="#C43433" d="M3745,1318.8l49.2,148.9h-44.5c-2.6,0-4.7-2.1-4.7-4.6V1318.8z"/>
-				<path fill="#C43433" d="M3732.7,1273.4v189.7c0,2.5-2.1,4.6-4.6,4.6h-58.8c-2.5,0-4.6-2.1-4.6-4.6c1.6-42,7-83.8,16.1-124.9
-					c5.1-22.9,13.9-44.8,26.1-64.8c1.1-2.8,3.9-4.6,7-4.6h14.2C3730.7,1268.7,3732.7,1270.8,3732.7,1273.4z"/>
-			</g>
-			<g>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3651.8" y1="1491.8" x2="3651.8" y2="1484"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3656.4" y1="1479.4" x2="3797.2" y2="1479.4"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3669.3" y1="1467.7" x2="3728.1" y2="1467.7"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3749.7" y1="1467.7" x2="3794.2" y2="1467.7"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3797.2" y1="1496.4" x2="3656.4" y2="1496.4"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3651.8,1491.8c0,2.6,2.1,4.6,4.6,4.6"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3656.4,1479.4c-2.5,0-4.6,2.1-4.6,4.6"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3801.8" y1="1491.8" x2="3801.8" y2="1484"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3797.2,1496.4c2.5,0,4.6-2,4.6-4.6"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3801.8,1484c0-2.5-2.1-4.6-4.6-4.6"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3732.7" y1="1463.1" x2="3732.7" y2="1273.4"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3745" y1="1463.1" x2="3745" y2="1318.8"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3745,1463.1c0,2.5,2.1,4.6,4.7,4.6"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3728.1,1467.7c2.5,0,4.6-2.1,4.6-4.6"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3664.7,1463.1c0,2.5,2.1,4.6,4.6,4.6"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3745" y1="1318.8" x2="3794.2" y2="1467.7"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3732.7,1273.4c0-2.5-2.1-4.6-4.6-4.6"/>
-				<line fill="none" stroke="#C43433" stroke-miterlimit="10" x1="3728.1" y1="1268.7" x2="3713.9" y2="1268.7"/>
-				<path fill="none" stroke="#C43433" stroke-miterlimit="10" d="M3713.9,1268.7c-3.1,0-5.8,1.8-7,4.6c-12.2,20-21,41.9-26.1,64.8
-					c-9.1,41.1-14.5,82.8-16.1,124.9"/>
-			</g>
-		</g>
-	</g>
+</g>
+<g id="Calque_6">
 </g>
 <g id="Layer_1">
 </g>

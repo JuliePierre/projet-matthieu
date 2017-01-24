@@ -1,8 +1,8 @@
-$navbar-height: 64px !default;
+$navbar-height: 70px !important;
+$navbar-line-height: 70px !important;
 $navbar-height-mobile: 56px !default;
 $navbar-font-size: 1rem !default;
-$navbar-font-color: #1781b1 !default;
-$navbar-brand-font-size: 2.1rem !default;
+$navbar-font-color: white !default;
 
 
 #brand-section {
@@ -13,23 +13,25 @@ $navbar-brand-font-size: 2.1rem !default;
   position: absolute;
   top: -10px;
   left: 40px;
-  background-color: $bg-blue;
+  background-color: $dark-blue;
   border-radius: 50%;
+  width: 100px;
+  height: auto;
 }
 
 #brand-name {
   position: absolute;
-  left: 158px;
+  left: 180px;
   color: white;
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 1rem;
   padding: 0;
   white-space: nowrap;
 }
 
 nav ul a {
   transition: background-color .3s;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: white;
   display: block;
   padding: 0 15px;
@@ -38,12 +40,12 @@ nav ul a {
 
 .navbar {
   padding-left: 15px;
-  background-color: $bg-blue;
-  color: white !important;
-  // position: fixed;
+  background-color: $dark-blue;
   transition: opacity 0.6s ease-out, margin 0.6s ease-out;
   z-index: 1;
   box-shadow: unset;
+  height: 70px !important;
+  line-height: 70px !important;
 }
 
 #index-navbar {
@@ -54,4 +56,3 @@ nav ul a {
   opacity: 0;
   margin-top: -65px !important;
 }
-

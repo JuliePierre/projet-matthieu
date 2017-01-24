@@ -1,15 +1,16 @@
 #footer {
-  background-color: $dark-blue;
+  height: 90px !important;
+  background-color: $dark-blue !important;
   margin-top: 0px;
-  padding: 45px 300px;
+  padding: 20px 300px 0px 300px;
   display: flex;
   justify-content: space-around;
   i {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     cursor: pointer;
     &:hover {
-      color: $brand-grey;
+      color: $bg-blue;
     }
   }
 }
