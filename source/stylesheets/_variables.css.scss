@@ -61,7 +61,7 @@ p.small {
 }
 
 .semi-gras {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .gras {
@@ -105,6 +105,9 @@ p.small {
   min-height: 1px;
 }
 
+.justified-content {
+  text-align: justify;
+}
 
 /* ==========================================================================
    BUTTONS

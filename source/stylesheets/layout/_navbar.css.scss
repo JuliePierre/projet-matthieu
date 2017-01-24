@@ -36,6 +36,9 @@ nav ul a {
   display: block;
   padding: 0 15px;
   cursor: pointer;
+  .active {
+    color: $brand-red !important;
+  }
 }
 
 .navbar {

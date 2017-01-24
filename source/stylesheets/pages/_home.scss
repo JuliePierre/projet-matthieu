@@ -71,3 +71,105 @@
 .counter, .quick-counter, .counter-number {
   font-size: 3rem !important;
 }
+
+#section-transat {
+  padding: 60px 140px;
+  .col {
+    padding: 0px 5px;
+    h4 {
+      text-align: right;
+    }
+  }
+}
+
+#mini-transat-stats {
+  h2 {
+    margin-bottom: 0px !important;
+  }
+  p {
+    margin-top: 5px !important;
+  }
+}
+
+.btn-cadre {
+  border: 1px solid white;
+  padding: 10px 20px;
+  color: white;
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: white;
+    opacity: 0.5;
+    color: $dark-blue;
+  }
+}
+
+.objectif-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.objectif-text-left {
+  flex: 0 0 33%;
+  text-align: left;
+  h4 {
+    margin-bottom: 0px !important;
+    font-weight: 700 !important;
+  }
+  p {
+    margin-top: 5px !important;
+  }
+}
+
+.objectif-icon-right {
+  flex: 0 0 33%;
+}
+
+#partenariat-content {
+  position: relative;
+  padding-bottom: 140px;
+}
+
+.le-bateau {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  max-width: 220px;
+  text-align: left;
+}
+
+.association {
+  position: absolute;
+  top: 76%;
+  left: 60%;
+  text-align: left;
+  p {
+    margin: 0px;
+  }
+}
+
+.entreprise {
+  position: absolute;
+  top: 76%;
+  left: 20%;
+  text-align: left;
+  max-width: 315px;
+  p {
+    margin: 0px;
+  }
+}
+
+#bateau-content {
+  p {
+    margin: 0px;
+  }
+  .col:first-child {
+    margin-right: 20px;
+  }
+}
+
+.float-left {
+  text-align: left;
+}
