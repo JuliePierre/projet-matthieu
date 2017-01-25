@@ -11,6 +11,7 @@ $bg-blue: #05486D;
 $dark-blue: #023351;
 $brand-red: #C43433;
 
+
 /* ==========================================================================
    UTILITIES ajoutées par Julie
    ========================================================================== */
@@ -243,3 +244,10 @@ p.small {
 .fifth-item {
   flex: 0 0 50%;
 }
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+}
+
+
