@@ -64,7 +64,7 @@
   }
 }
 
-.counter, .quick-counter, .counter-number {
+.home-counter, .counter-number, .minitransat-counter, .minitransat-counter-number {
   font-size: 3rem !important;
 }
 
@@ -76,6 +76,27 @@
       text-align: right;
     }
   }
+}
+
+.stats-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 260px;
+  h4 {
+    line-height: initial !important;
+    margin: 30px 0px !important;
+  }
+}
+
+.stats-left-side {
+  text-align: left;
+  flex: 0 0 auto;
+}
+
+.stats-right-side {
+  text-align: left;
+  flex: 0 0 auto;
 }
 
 #mini-transat-stats {

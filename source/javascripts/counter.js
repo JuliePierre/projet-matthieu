@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(window).scroll(function () {
     if ($(window).scrollTop() > 900) {
-      $('.counter').each(function() {
+      $('.home-counter').each(function() {
         var $this = $(this),
             countTo = $this.attr('data-count');
         $({ countNum: $this.text()}).animate({
@@ -19,7 +19,10 @@ $(document).ready(function() {
           }
         });
       });
-      $('.quick-counter').each(function() {
+    }
+
+    if ($(window).scrollTop() > 50) {
+      $('.minitransat-counter').each(function() {
         var $this = $(this),
             countTo = $this.attr('data-count');
         $({ countNum: $this.text()}).animate({
