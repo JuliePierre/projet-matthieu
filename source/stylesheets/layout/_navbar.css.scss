@@ -11,7 +11,7 @@ $navbar-font-color: white !default;
 
 #logo-bateau {
   position: absolute;
-  top: -10px;
+  top: -0px;
   left: 40px;
   background-color: $dark-blue;
   border-radius: 50%;
@@ -21,17 +21,17 @@ $navbar-font-color: white !default;
 
 #brand-name {
   position: absolute;
-  left: 180px;
+  left: 160px;
   color: white;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0;
   white-space: nowrap;
 }
 
 nav ul a {
   transition: background-color .3s;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: white;
   display: block;
   padding: 0 15px;

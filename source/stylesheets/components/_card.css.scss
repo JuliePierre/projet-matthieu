@@ -1,3 +1,25 @@
-.card {
-  margin: 20px 10px 0px 10px;
+.brand-card {
+  position: relative;
+  height: 200px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+}
+
+.brand-card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.brand-card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: black;
+  opacity: 0;
+}
+.brand-card-link:hover{
+  opacity: 0.1;
 }
