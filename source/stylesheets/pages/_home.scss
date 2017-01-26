@@ -220,12 +220,20 @@
   p {
     margin: 0px;
   }
-  img {
-    margin-bottom: 40px;
-  }
   .col:first-child {
     padding: 0px 20px;
+    @media (max-width: $small-screen) {
+      padding: 0px;
+    }
   }
+}
+
+#vectoriel-bateau {
+  @media (max-width: $small-screen) {
+    height: auto;
+  }
+  max-height: 80vh;
+  margin-bottom: 40px;
 }
 
 .float-left {
