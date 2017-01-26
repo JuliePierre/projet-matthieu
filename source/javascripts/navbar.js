@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $(".button-collapse").sideNav();
   var page = $('nav')[0].id.split("-")[0];
   console.log('page')
   var links = $('nav ul a')

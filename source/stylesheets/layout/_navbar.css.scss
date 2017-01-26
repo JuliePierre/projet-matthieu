@@ -41,6 +41,18 @@ nav ul a {
   }
 }
 
+nav .button-collapse {
+  float: right !important;
+}
+
+.side-nav a {
+  background-color: $dark-blue !important;
+}
+
+.side-nav a {
+  color: white !important;
+}
+
 .navbar {
   padding-left: 15px;
   background-color: $dark-blue;
