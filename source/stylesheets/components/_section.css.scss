@@ -1,8 +1,14 @@
 .section {
   padding: 60px 80px;
+  @media (max-width: $small-screen) {
+    padding: 25px 20px;
+  }
 }
 
 .section-header {
+  @media (max-width: $small-screen) {
+    font-size: 1.2rem !important;
+  }
   font-size: 1.5rem !important;
 }
 

@@ -1,32 +1,24 @@
-$navbar-height: 70px !important;
-$navbar-line-height: 70px !important;
-$navbar-height-mobile: 56px !default;
 $navbar-font-size: 1rem !default;
 $navbar-font-color: white !default;
 
-
-#brand-section {
-  position: relative;
+nav {
+  .button-collapse {
+    float: right !important;
+  }
 }
 
-#logo-bateau {
-  position: absolute;
-  top: -0px;
-  left: 40px;
+.navbar {
+  padding-left: 15px;
   background-color: $dark-blue;
-  border-radius: 50%;
-  width: 100px;
-  height: auto;
-}
-
-#brand-name {
-  position: absolute;
-  left: 160px;
-  color: white;
-  display: inline-block;
-  font-size: 1.2rem;
-  padding: 0;
-  white-space: nowrap;
+  transition: opacity 0.6s ease-out, margin 0.6s ease-out;
+  z-index: 1;
+  box-shadow: unset;
+  height: 70px !important;
+  line-height: 70px !important;
+  @media (max-width: $small-screen) {
+    height: 56px !important;
+    line-height: 56px !important;
+  }
 }
 
 nav ul a {
@@ -41,27 +33,47 @@ nav ul a {
   }
 }
 
-nav .button-collapse {
-  float: right !important;
+#brand-section {
+  display: flex;
+  align-items: center;
+  #logo-bateau {
+    background-color: $dark-blue;
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+  }
+  #brand-name {
+    color: white;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0;
+    white-space: nowrap;
+    margin-top: -25px;
+    margin-left: 20px;
+    @media (max-width: $small-screen) {
+      font-size: 1rem;
+      margin-left: 10px;
+    }
+  }
 }
 
-.side-nav a {
+.side-nav {
   background-color: $dark-blue !important;
+  a {
+    color: white !important;
+  }
 }
 
-.side-nav a {
-  color: white !important;
+#sidenav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0 !important;
 }
-
-.navbar {
-  padding-left: 15px;
-  background-color: $dark-blue;
-  transition: opacity 0.6s ease-out, margin 0.6s ease-out;
-  z-index: 1;
-  box-shadow: unset;
-  height: 70px !important;
-  line-height: 70px !important;
-}
+// Navbar de la page d'accueil qui descend au scroll
 
 #index-navbar {
   position: fixed;
@@ -69,5 +81,5 @@ nav .button-collapse {
 
 .index.navbar {
   opacity: 0;
-  margin-top: -65px !important;
+  margin-top: -70px !important;
 }

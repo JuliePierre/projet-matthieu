@@ -12,38 +12,79 @@ $dark-blue: #023351;
 $brand-red: #C43433;
 
 
+$small-screen: 320px !default; // Iphone 5 --> pas de flexbox, 2 div
+$small-screen2: 414px !default; // Iphone 6 + --> pas de flexbox, 2 div
+$inter-screen: 768px !default; // IPAD --> idem
+$medium-screen-down: 1023px !default; // inférieur à IPAD PRO --> pour les mobiles et l'ipad
+$medium-screen: 1024px !default; // IPAD PRO --> comme desktop
+$medium-screen-up: 1025px !default;
+
 /* ==========================================================================
    UTILITIES ajoutées par Julie
    ========================================================================== */
 body {
   color: white;
   font-family: 'Muli', sans-serif;
-}
-
-h1{
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 1.6rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-h4 {
-  font-size: 1.2rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
-p.small {
-  font-size: 0.8rem;
+  @media (max-width: $small-screen) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  @media (max-width: $small-screen2) {
+    h1 {
+      font-size: 1rem;
+    }
+    h2 {
+    }
+  }
+  @media (max-width: $inter-screen) {
+    h1 {
+      font-size: 1rem;
+    }
+    h2 {
+    }
+  }
+  @media (max-width: $medium-screen) {
+    h1 {
+      font-size: 1rem;
+    }
+    h2 {
+    }
+  }
+  @media (min-width: $medium-screen-up) {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.6rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+      .small {
+        font-size: 0.8rem;
+      }
+    }
+  }
 }
 
 /* ==========================================================================
@@ -83,7 +124,10 @@ p.small {
 }
 
 .small-container {
-    width: 50% !important;
+  width: 50% !important;
+  @media (max-width: $small-screen) {
+    width: 80% !important;
+  }
 }
 
 .highlighted {
@@ -108,6 +152,22 @@ p.small {
 
 .justified-content {
   text-align: justify;
+}
+
+.unpadded {
+  padding: 0px !important;
+}
+
+.unmargined {
+  margin: 0px !important;
+}
+
+.unmargined-top {
+  margin-top: 0px !important;
+}
+
+.unmargined-bottom {
+  margin-bottom: 0px !important;
 }
 
 /* ==========================================================================
@@ -231,13 +291,16 @@ p.small {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .first-item,
 .second-item,
 .third-item {
   flex: 0 1 33%;
+  @media (max-width: $small-screen) {
+    flex: 0 0 60%;
+  }
 }
 
 .fourth-item,
