@@ -27,13 +27,13 @@ body {
   font-family: 'Futura', 'Muli', sans-serif;
   @media (max-width: $small-screen) {
     h1 {
-      font-size: 2.5rem;
-    }
-    h2 {
       font-size: 2rem;
     }
+    h2 {
+      font-size: 1.2rem;
+    }
     h3 {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     h4 {
       font-size: 1rem;
@@ -71,13 +71,13 @@ body {
   }
   @media (min-width: $medium-screen-up) {
     h1 {
-      font-size: 3rem;
-    }
-    h2 {
       font-size: 2.5rem;
     }
+    h2 {
+      font-size: 1.5rem;
+    }
     h3 {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       margin-top: 20px;
       margin-bottom: 20px;
     }

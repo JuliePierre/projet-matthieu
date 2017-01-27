@@ -50,8 +50,15 @@
   }
 }
 
-#mini-transat-content, #mini-transat-stats {
+#mini-transat-content {
   background-size: cover;
+}
+
+#mini-transat-stats {
+  background-size: cover;
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 
 #skipper-bg{
