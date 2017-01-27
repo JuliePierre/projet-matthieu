@@ -47,6 +47,9 @@ nav ul a {
     border-radius: 50%;
     width: 100px;
     height: auto;
+    @media (max-width: $small-screen) {
+      max-width: 70px;
+    }
   }
   #brand-name {
     color: white;

@@ -5,8 +5,11 @@
   margin-right: 0px;
 }
 
-#newsletter-banner {
-  height: 655px;
+#parallax-page-index {
+  height: 100vh;
+  .row {
+    width: 100%;
+  }
 }
 
 #mini-transat-bg {

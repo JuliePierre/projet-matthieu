@@ -12,6 +12,7 @@
 
 .scrolldown {
   -webkit-animation: scrolldown 2s ease-in-out infinite;
+  -moz-animation: scrolldown 2s ease-in-out infinite;
   animation: scrolldown 2s ease-in-out infinite;
 }
 
