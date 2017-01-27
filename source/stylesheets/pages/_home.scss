@@ -50,6 +50,10 @@
   }
 }
 
+#mini-transat-content, #mini-transat-stats {
+  background-size: cover;
+}
+
 #skipper-bg{
   display: flex;
   align-items: center;
@@ -62,8 +66,6 @@
     flex: 0 0 50%;
   }
 }
-
-
 
 #photo-matthieu {
   border-radius: 50%;
