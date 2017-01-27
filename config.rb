@@ -59,6 +59,9 @@ configure :build do
   activate :relative_assets
   set :relative_links, true
 
+  # Set up fonts
+  set :fonts_dir, 'fonts'
+
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
   require_relative "./lib/build_cleaner"
