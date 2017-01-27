@@ -1,15 +1,32 @@
-#footer {
-  height: 90px !important;
+#brand-footer {
   background-color: $dark-blue !important;
-  margin-top: 0px;
+  padding: 20px 25px;
   display: flex;
   justify-content: space-around;
-  i {
+  align-items: center;
+  .fa-facebook, .fa-instagram {
+    margin: 0px 10px;
+    font-size: 2rem;
     color: white;
-    font-size: 50px;
     cursor: pointer;
     &:hover {
       color: $bg-blue;
     }
+  }
+  @media (max-width: $small-screen) {
+    height: auto;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .plan-du-site {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .plan-left-side, .plan-right-side {
+    flex: 0 0 auto;
+    padding: 0px 10px;
   }
 }

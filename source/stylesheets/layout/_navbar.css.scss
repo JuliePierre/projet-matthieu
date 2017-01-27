@@ -42,6 +42,7 @@ nav ul a {
 #brand-section {
   display: flex;
   align-items: center;
+  position: relative;
   #logo-bateau {
     background-color: $dark-blue;
     border-radius: 50%;
@@ -64,6 +65,13 @@ nav ul a {
       margin-left: 0px;
       margin-top: -10px;
     }
+  }
+  #redirection-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
 }
 

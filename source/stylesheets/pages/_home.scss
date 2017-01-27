@@ -155,9 +155,10 @@
     text-decoration: none;
   }
   &:hover {
-    background-color: white;
+    background-color: white !important;
     opacity: 0.5;
     color: $dark-blue;
+    border: 1px solid #023351;
   }
   @media (max-width: $small-screen) {
     font-size: 0.8rem !important;
