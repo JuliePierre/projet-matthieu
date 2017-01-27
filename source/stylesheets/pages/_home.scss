@@ -20,7 +20,7 @@
 #mapmonde-bg {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   h4 {
     margin-top: 100px;
@@ -61,9 +61,15 @@
   flex-wrap: wrap;
   .skipper-bg-item {
     flex: 0 0 50%;
+    @media (max-width: $small-screen) {
+      flex: 0 0 80%;
+    }
   }
   .skipper-photo-item {
     flex: 0 0 50%;
+    @media (max-width: $small-screen) {
+      flex: 0 0 80%;
+    }
   }
 }
 
