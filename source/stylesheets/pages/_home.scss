@@ -264,13 +264,11 @@
 }
 
 #programme-content {
-  padding-left: 220px;
-  padding-right: 220px;
   @media (max-width: $small-screen) {
     padding: 25px 20px;
   }
   img {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 25px;
     margin-top: 20px;
   }
