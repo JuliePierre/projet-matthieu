@@ -12,6 +12,10 @@
   }
 }
 
+#first-content {
+  padding: 30px 80px;
+}
+
 #mini-transat-bg {
   background-repeat:no-repeat;
   background-size: cover;
@@ -111,7 +115,7 @@
 }
 
 #section-transat {
-  padding: 60px 140px;
+  padding: 80px 140px;
   .col {
     padding: 0px 5px;
     h4 {
@@ -251,6 +255,10 @@
     left: 7%;
     max-width: 45%;
   }
+}
+
+#link-to-foundation {
+ padding-bottom: 100px;
 }
 
 #bateau-content {

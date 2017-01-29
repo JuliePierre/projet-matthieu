@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   .fa-facebook, .fa-instagram {
     margin: 0px 10px;
     font-size: 2rem;
