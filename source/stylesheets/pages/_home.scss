@@ -13,14 +13,14 @@
 }
 
 #first-content {
-  padding: 30px 80px;
+  padding: 15px 80px;
 }
 
 #mini-transat-bg {
   background-repeat:no-repeat;
   background-size: cover;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #mapmonde-bg {
@@ -28,12 +28,15 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 30px 80px;
   h4 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    @media (max-width: $small-screen) {
-      margin-top: 30px;
-      margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  @media (max-width: $small-screen) {
+    h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
     }
   }
 }
@@ -54,6 +57,9 @@
   @media (max-width: $small-screen) {
     flex: 0 0 50%;
   }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #mini-transat-content {
