@@ -305,6 +305,7 @@
 }
 
 #partenaires-content {
+  min-height: calc(100vh - 350px) !important;
   .row {
     margin: 20px 0px;
     width: 100%;
