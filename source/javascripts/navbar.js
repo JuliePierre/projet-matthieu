@@ -15,12 +15,28 @@ $(document).ready(function() {
     };
   });
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 65) {
-      $('#index-navbar').removeClass('index');
-    }
-    if ($(window).scrollTop() < 65) {
-      $('#index-navbar').addClass('index');
-    }
+  // $(window).scroll(function () {
+  //   if ($(window).scrollTop() > 65) {
+  //     $('#index-navbar').removeClass('index');
+  //   }
+  //   if ($(window).scrollTop() < 65) {
+  //     $('#index-navbar').addClass('index');
+  //   }
+  // });
+
+  $('#parallax-page-index').mousemove(function(event) {
+    $('#index-navbar').removeClass('index');
+    $('#scrolldown-home').removeClass('hidden');
+    // $('html, body').animate({
+    //   scrollTop: $('#first-content').offset().top
+    // }, 'slow');
   });
+
+  $('#scrolldown-home').click(function(event) {
+    var target = $('#first-content').offset().top - 70;
+    $('html, body').animate({ scrollTop: target }, 'slow');
+  })
 });
+
+
+
