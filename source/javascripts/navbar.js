@@ -22,7 +22,7 @@ $(document).ready(function() {
   });
 
   $('#parallax-page-index').mousemove(function(event) {
-    $('#index-navbar').removeClass('index');
+    // $('#index-navbar').removeClass('index');
     $('#scrolldown-home').removeClass('hidden');
     // $('html, body').animate({
     //   scrollTop: $('#first-content').offset().top

@@ -1,10 +1,10 @@
 .arrow {
   position: absolute;
-  bottom: 30px;
-  left: calc(50% - 20px);
-  width: 100px;
-  height: 60px;
-  background-image: url('../images/arrow.png');
+  bottom: 15px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 80px;
+  background-image: url('../images/arrow-white.png');
   background-size: contain;
   background-repeat: no-repeat;
   color: $dark-blue;
@@ -12,13 +12,15 @@
 }
 
 .scrolldown {
-  -webkit-animation: scrolldown 2s ease-in-out infinite;
-  -moz-animation: scrolldown 2s ease-in-out infinite;
-  animation: scrolldown 2s ease-in-out infinite;
+  -webkit-animation: scrolldown 1.5s ease-in-out infinite;
+  -moz-animation: scrolldown 1.5s ease-in-out infinite;
+  animation: scrolldown 1.5s ease-in-out infinite;
 }
 
 @keyframes scrolldown {
-  0% {transform: translateY(0) }
-  50% {opacity: 1 }
-  100% {transform: translateY(30px); opacity: 0 }
+  0% {transform: translateY(0); opacity: 1 }
+  25% {opacity: 1 }
+  50% {opacity: 0.8 }
+  75% {opacity: 0.6 }
+  100% {transform: translateY(60px); opacity: 0 }
 }
