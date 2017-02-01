@@ -15,14 +15,11 @@ $(document).ready(function() {
     };
   });
 
-  // $(window).scroll(function () {
-  //   if ($(window).scrollTop() > 65) {
-  //     $('#index-navbar').removeClass('index');
-  //   }
-  //   if ($(window).scrollTop() < 65) {
-  //     $('#index-navbar').addClass('index');
-  //   }
-  // });
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 65) {
+      $('#index-navbar').removeClass('index');
+    }
+  });
 
   $('#parallax-page-index').mousemove(function(event) {
     $('#index-navbar').removeClass('index');
