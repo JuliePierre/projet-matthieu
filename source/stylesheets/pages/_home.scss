@@ -304,12 +304,22 @@
   }
 }
 
+#banner-partenaires {
+  width: 100%;
+  height: 800px;
+  padding-top: 50px;
+}
+
 #partenaires-content {
   min-height: calc(100vh - 350px) !important;
   .row {
     margin: 20px 0px;
     width: 100%;
   }
+}
+
+#contact-form-partenaires {
+  margin-top: 0px;
 }
 
 #mini-logo {

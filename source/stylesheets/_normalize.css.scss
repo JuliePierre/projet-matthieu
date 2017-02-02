@@ -1,4 +1,8 @@
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+$input-border-color: white !default;
+$input-border: 1px solid $input-border-color !default;
+$placeholder-text-color: white !default;
+$input-focus-color: white !default;
 
 /* ==========================================================================
    HTML5 display definitions

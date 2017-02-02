@@ -7,14 +7,37 @@ description: Découvrez les partenaires et soutiens du projet.
   <h2 class="section-header center-align">Devenez partenaire du projet et embarquez dans<span class="brand-red-text gras"> l'aventure</span> !</h2>
 </div>
 
-<div class="parallax-container valign-wrapper" id="partenaires-content">
+<!-- <div class="parallax-container valign-wrapper" id="partenaires-content">
   <div class="parallax">
     <%= image_tag "banner-partenaires.jpg" %>
   </div>
   <div class="row">
     <div class="col m2 offset-m2 center-align">
       <%= image_tag "mini-logo.png", id: "mini-logo" %>
-      <h3>Logo des partenaires</h3>
     </div>
+  </div>
+</div> -->
+
+<div id="banner-partenaires", class="responsive-img" style="background: url('<%= image_path "resized-banner-partenaires.jpg"%>') no-repeat fixed">
+  <div id="contact-form-partenaires">
+    <h3 class="center-align">Vous souhaitez en savoir plus sur le projet ? Contactez-nous.</h3>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col s10 offset-s1 col m4 offset-m4">
+        <form action="https://formspree.io/julie.pierre3@gmail.com"
+          method="POST">
+          <input type="text" name="name" placeholder="Votre nom" class="form-control" id="nom-utilisateur" required>
+          <input type="email" name="_replyto" placeholder="Votre email" class="form-control" id="email-utilisateur" required>
+          <textarea name="body" rows="8" width="100%" placeholder="Entrez ici votre texte" class="form-control"></textarea>
+          <br>
+          <input type="hidden" name="_next" value="/">
+          <input type="submit" value="Envoyer" class="btn-cadre">
+        </form>
+      </div>
+    </div>
+    <br>
+    <br>
+    <h4 class="center-align">Pour m'envoyer un email classique, cliquez <a href="mailto:matthieu.perraut@gmail.com" target="_blank" class="normal-link">ici</a>.</h4>
   </div>
 </div>
