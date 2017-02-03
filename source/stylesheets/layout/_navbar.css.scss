@@ -14,11 +14,18 @@ nav {
   z-index: 1;
   box-shadow: unset;
   height: 70px !important;
-  line-height: 70px !important;
   max-width: 100% !important;
   @media (max-width: $small-screen) {
     height: 56px !important;
-    line-height: 56px !important;
+  }
+}
+
+#menu-links {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  @media (max-width: $small-screen) {
+    height: 56px;
   }
 }
 
@@ -27,12 +34,18 @@ nav ul a {
   font-size: 1rem;
   color: white;
   display: block;
-  padding: 0 15px;
+  padding: 0 4px;
+  margin: 0 10px;
   cursor: pointer;
-  .active {
-    color: $brand-red !important;
-  }
+  border-bottom: 3px solid transparent;
+  line-height: 1.8;
 }
+
+nav ul a.active {
+  border-bottom: 3px solid $brand-red;
+}
+
+
 
 #programme-navbar {
   position: absolute;

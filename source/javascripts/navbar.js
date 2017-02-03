@@ -4,12 +4,10 @@ $(document).ready(function() {
   var links = $('nav ul a')
   links.each(function(i, item) {
     if (item.getAttribute("data-info") == page) {
-      $(item).addClass('brand-red-text');
-      $(item).addClass('gras');
+      $(item).addClass('active');
     };
     if (item.getAttribute("data-info") != page) {
-      $(item).removeClass('brand-red-text');
-      $(item).removeClass('gras');
+      $(item).removeClass('active');
     };
   });
 
