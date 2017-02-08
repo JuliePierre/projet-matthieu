@@ -310,10 +310,78 @@
   padding-top: 50px;
 }
 
+#equipe-section {
+  padding: 80px 140px;
+}
+
+#team-content {
+  margin-left: 2em;
+  margin-right: 2em;
+  img {
+    max-width: 45%;
+    height: auto;
+    @media (max-width: $small-screen) {
+      max-width: 45%;
+      margin-right: 0px;
+    }
+    margin-right: 2em;
+  }
+}
+
+#team-left-side, #team-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team-members {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 4em;
+  max-width: 70%;
+  flex-wrap: wrap;
+  h3 {
+    margin-bottom: 0px;
+  }
+  p {
+    margin-top: 0px;
+  }
+  @media (max-width: $small-screen) {
+    max-width: 100%;
+    margin-bottom: 2em;
+    justify-content: space-around;
+    text-align: center;
+  }
+}
+
+.team-members-description {
+  max-width: 45%;
+}
+
+.description {
+  font-size: 1.2em;
+}
+
 #banner-equipe {
   width: 100%;
-  height: 800px;
+  height: auto;
   padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(/images/banner-partenaires.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  @media (max-width: $inter-screen) {
+    background-attachment: initial;
+  }
+  @media (max-width: $small-screen2) {
+    background-attachment: initial;
+  }
+  .row {
+    margin-bottom: 0px !important;
+  }
 }
 
 #partenaires-content {
