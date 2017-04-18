@@ -286,11 +286,10 @@
 }
 
 #vectoriel-bateau {
-  @media (max-width: $small-screen) {
-    height: auto;
+   @media (max-width: $medium-screen) {
+    max-height: 50vh;
   }
   max-height: 80vh;
-  margin-bottom: 40px;
 }
 
 .float-left {
@@ -397,5 +396,72 @@
   }
   .col {
     padding: 0px 20px;
+  }
+}
+
+.titre-rhino {
+  text-align: left;
+  font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#bateau-first-flexbox {
+  width: 100%;
+  align-items: flex-end;
+  .infos-bateau {
+    flex: 0 0 42%;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    @media (max-width: 1023px) {
+      flex: 0 0 100%;
+      padding-right: 0;
+    }
+  }
+  .dessin-bateau {
+    padding-left: 1rem;
+    flex: 0 0 50%;
+    @media (max-width: 1023px) {
+      flex: 0 0 100%;
+    }
+  }
+}
+#bateau-second-flexbox {
+  width: 100%;
+  align-items: center;
+  #rhino-infos {
+    flex: 0 0 42%;
+    text-align: right;
+    padding-right: 1rem;
+    @media (min-width: 1440px) {
+      padding-right: 0;
+    }
+  }
+  .rhino-coupe {
+    flex: 0 0 50%;
+    padding-left: 1rem;
+    @media (min-width: 1440px) {
+      padding-left: 0;
+    }
+  }
+  #coupe-bateau {
+    width: 100%;
+    @media (max-width: $medium-screen) {
+      max-width: 90%;
+    }
+  }
+}
+.small-section {
+  @media (min-width: 1025px) {
+    margin: 0 8rem;
+  }
+  @media (min-width: 1280px) {
+    margin: 0 4rem;
+  }
+  @media (min-width: 1440px) {
+    margin: 0;
   }
 }
