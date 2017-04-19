@@ -5,28 +5,24 @@ nav {
   .button-collapse {
     float: right !important;
   }
+  line-height: 5rem !important;
 }
 
 .navbar {
-  padding-left: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: $dark-blue;
   transition: opacity 0.6s ease-out, margin 0.6s ease-out;
   z-index: 1;
   box-shadow: unset;
-  height: 70px !important;
+  height: 5rem !important;
   max-width: 100% !important;
-  @media (max-width: $small-screen) {
-    height: 56px !important;
-  }
 }
 
 #menu-links {
   display: flex;
   align-items: center;
-  height: 70px;
-  @media (max-width: $small-screen) {
-    height: 56px;
-  }
+  height: 5rem;
 }
 
 nav ul a {
@@ -34,8 +30,8 @@ nav ul a {
   font-size: 1rem;
   color: white;
   display: block;
-  padding: 0 4px;
-  margin: 0 10px;
+  padding: 0 0.2rem;
+  margin: 0 0.5rem;
   cursor: pointer;
   border-bottom: 3px solid transparent;
   line-height: 1.8;
@@ -56,14 +52,14 @@ nav ul a.active {
   display: flex;
   align-items: center;
   position: relative;
+  height: 5rem !important;
   #logo-bateau {
     background-color: $dark-blue;
     border-radius: 50%;
-    width: 100px;
+    width: 6rem;
     height: auto;
-    @media (max-width: $small-screen) {
-      max-width: 70px;
-    }
+    position: relative;
+    top: 0.5rem
   }
   #brand-name {
     color: white;
@@ -71,8 +67,7 @@ nav ul a.active {
     font-size: 1.2rem;
     padding: 0;
     white-space: nowrap;
-    margin-top: -25px;
-    margin-left: 20px;
+    margin-left: 1rem;
     @media (max-width: $small-screen) {
       font-size: 1rem;
       margin-left: 0px;

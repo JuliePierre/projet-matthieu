@@ -26,7 +26,8 @@ $(document).ready(function() {
   });
 
   $('#scrolldown-home').click(function(event) {
-    var target = $('#first-content').offset().top - 70;
+    var targetPosition = $('#first-content').offset().top;
+    var target = $('#first-content').offset().top - targetPosition;
     $('html, body').animate({ scrollTop: target }, 'slow');
   })
 });

@@ -20,36 +20,37 @@ $medium-screen: 1024px !default; // IPAD PRO --> comme desktop
 $medium-screen-up: 1025px !default;
 $small-screen-up: 321px !default;
 
+
+@media only screen and (min-width: 0) {
+  /* line 6, /usr/local/opt/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/materialize-sass-0.97.8/app/assets/stylesheets/materialize/components/_typography.scss */
+  html {
+    font-size: 11px; } }
+@media only screen and (min-width: 992px) {
+  /* line 6, /usr/local/opt/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/materialize-sass-0.97.8/app/assets/stylesheets/materialize/components/_typography.scss */
+  html {
+    font-size: 14.5px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 6, /usr/local/opt/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/materialize-sass-0.97.8/app/assets/stylesheets/materialize/components/_typography.scss */
+  html {
+    font-size: 15px; } }
+
+@media only screen and (min-width: 2880px) {
+  /* line 6, /usr/local/opt/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/materialize-sass-0.97.8/app/assets/stylesheets/materialize/components/_typography.scss */
+  html {
+    font-size: 30px; } }
+
+@media only screen and (min-width: 4096px) {
+  /* line 6, /usr/local/opt/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/materialize-sass-0.97.8/app/assets/stylesheets/materialize/components/_typography.scss */
+  html {
+    font-size: 45px; } }
+
+
 /* ==========================================================================
    UTILITIES ajoutées par Julie
    ========================================================================== */
 body {
   color: white;
   font-family: 'Futura', 'Muli', sans-serif;
-  @media (max-width: $small-screen) {
-    h1 {
-      font-size: 2rem;
-    }
-    h2 {
-      font-size: 1.2rem;
-    }
-    h3 {
-      font-size: 1.2rem;
-    }
-    h4 {
-      font-size: 1rem;
-    }
-    h5 {
-      font-size: 0.8rem;
-    }
-    h6 {
-      font-size: 0.5rem;
-    }
-    p {
-      font-size: 0.8rem;
-    }
-  }
-  @media (min-width: $small-screen-up) {
     h1 {
       font-size: 2.5rem;
     }
@@ -75,11 +76,6 @@ body {
       .small {
         font-size: 0.8rem;
       }
-    }
-  }
-  @media (max-width: $small-screen2) {
-  }
-  @media (max-width: $inter-screen) {
   }
 }
 
