@@ -15,9 +15,13 @@
   .infos-bateau {
     flex: 0 0 42%;
     padding-right: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     @media (min-width: 1440px) {
       padding-right: 0;
+    }
+    @media (max-width: 375px) {
+      flex: 0 0 90%;
+      padding: 0 0 2rem 0;
     }
   }
   .dessin-bateau {
@@ -25,6 +29,10 @@
     flex: 0 0 50%;
     @media (min-width: 1440px) {
       padding-left: 0;
+    }
+    @media (max-width: 375px) {
+      flex: 0 0 90%;
+      padding: 0 0 2rem 0;
     }
   }
 }
@@ -38,6 +46,11 @@
     @media (min-width: 1440px) {
       padding-right: 0;
     }
+    @media (max-width: 375px) {
+      flex: 0 0 90%;
+      padding: 0 0 2rem 0;
+      text-align: center;
+    }
   }
   .rhino-coupe {
     flex: 0 0 50%;
@@ -45,12 +58,13 @@
     @media (min-width: 1440px) {
       padding-left: 0;
     }
+    @media (max-width: 375px) {
+      flex: 0 0 90%;
+      padding: 0 0 2rem 0;
+    }
   }
   #coupe-bateau {
     width: 100%;
-    @media (max-width: $medium-screen) {
-      max-width: 90%;
-    }
   }
 }
 .small-section {
