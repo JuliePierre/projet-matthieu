@@ -7,6 +7,9 @@ nav {
   }
   height: 75px;
   line-height: 75px;
+  top: 0;
+  position: fixed;
+  z-index: 2000;
 }
 .navbar {
   height: 100%;
@@ -55,10 +58,6 @@ nav {
   flex: 0 0 75%;
 }
 // gestion de la barre de la home page qui n'apparait qu'au scroll //
-nav {
-  position: fixed;
-  z-index: 2000;
-}
 #index-navbar {
   opacity: 0;
   margin-top: -70px;
