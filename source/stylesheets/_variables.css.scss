@@ -59,8 +59,8 @@ body {
     }
     h3 {
       font-size: 1.5rem;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
     h4 {
       font-size: 1.2rem;
@@ -73,6 +73,7 @@ body {
     }
     p {
       font-size: 1rem;
+      margin: 0.5rem 0;
       .small {
         font-size: 0.8rem;
       }
@@ -85,59 +86,39 @@ body {
 .brand-red-text {
   color: $brand-red !important;
 }
-
 .leger {
   font-weight: 300;
 }
-
 .normal {
   font-weight: 400;
 }
-
 .semi-gras {
   font-weight: 600 !important;
 }
-
 .gras {
   font-weight: 700;
 }
-
 .tres-gras {
   font-weight: 800;
 }
-
 .italique {
   font-style: italic;
 }
-
-.container {
-  width: 85%;
-}
-
 .container .row {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-
-.small-container {
-  width: 50% !important;
-  @media (max-width: $small-screen) {
-    width: 80% !important;
-  }
-}
-
 .highlighted {
   background-color: white;
   opacity: 0.5;
   padding: 5px 10px;
   border-radius: 5px;
 }
-
-.container-full-width {
-  margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
-}
+// .container-full-width {
+//   margin: 0 auto;
+//   max-width: 1440px;
+//   width: 100%;
+// }
 
 .row .col {
   float: left;
@@ -145,32 +126,25 @@ body {
   padding: 0 0rem;
   min-height: 1px;
 }
-
 .justified-content {
   text-align: justify;
 }
-
 .unpadded {
   padding: 0px !important;
 }
-
 .unmargined {
   margin: 0px !important;
 }
-
 .unmargined-top {
   margin-top: 0px !important;
 }
-
 .unmargined-bottom {
   margin-bottom: 0px !important;
 }
-
 .normal-link {
   color: white;
   text-decoration: underline;
 }
-
 .hidden {
   display: none;
 }
@@ -291,14 +265,6 @@ body {
 /* ==========================================================================
    LISTES
    ========================================================================== */
-
-.flexbox-infos {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 .first-item,
 .second-item,
 .third-item {

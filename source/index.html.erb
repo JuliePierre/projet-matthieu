@@ -17,37 +17,39 @@ description: Matthieu Perraut est un jeune navigateur qui a un objectif, être a
   <div class="arrow scrolldown hidden" id="scrolldown-home"></div>
 </div>
 
-<div class="section blue" id="first-content">
-  <h2 class="section-header center-align"><span class="brand-red-text">Objectif</span> : Mini Transat 2019</h2>
+<div class="section-blue" id="first-content">
+  <h2 class="center-align"><span class="brand-red-text">Objectif</span> : Mini Transat 2019</h2>
 </div>
 
-<div id="mini-transat-bg", class="section blue" style="background-image: url('<%= image_path "background-mini-home.jpg"%>')">
-  <div class="flexbox-infos">
-    <div class="first-item center-align">
-      <%= image_tag "logo20.svg", class: "center-align sailing-icons responsive-img" %>
-      <h4>Une Course Transatlantique</h4>
-      <p>La Rochelle - Martinique avec une escale aux Canaries</p>
+<div class="section-image" style="background-image: url('<%= image_path "background-mini-home.jpg"%>'); background-repeat: no-repeat; background-size: cover;">
+  <div class="container">
+    <div id="presentation-infos-container">
+      <div class="flex-item center-align">
+        <%= image_tag "logo20.svg", class: "center-align sailing-icons responsive-img" %>
+        <h3>Une Course Transatlantique</h3>
+        <p>La Rochelle - Martinique avec une escale aux Canaries</p>
+      </div>
+      <div class="flex-item center-align">
+        <%= image_tag "logo18.svg", class: "center-align sailing-icons responsive-img" %>
+        <h3>En Solitaire</h3>
+        <p>Sans assistance ni communication</p>
+      </div>
+      <div class="flex-item center-align">
+        <%= image_tag "logo19.svg", class: "center-align sailing-icons responsive-img" %>
+        <h3>Sur un bateau de 6.50m</h3>
+        <p>Les plus petits bateaux de course au large</p>
+      </div>
     </div>
-    <div class="second-item center-align">
-      <%= image_tag "logo18.svg", class: "center-align sailing-icons responsive-img" %>
-      <h4>En Solitaire</h4>
-      <p>Sans assistance ni communication</p>
-    </div>
-    <div class="third-item center-align">
-      <%= image_tag "logo19.svg", class: "center-align sailing-icons responsive-img" %>
-      <h4>Sur un bateau de 6.50m</h4>
-      <p>Les plus petits bateaux de course au large</p>
-    </div>
-  </div>
-  <div class="container small-container center-align">
-    <div class="citation">
-      <h4 class="italique">« C’est cette course qui m’a donné le goût du large. Je n’oublierai jamais. »</h4>
-      <p class="italique">Ellen Mac Arthur</p>
+    <div class="small-container center-align">
+      <div class="citation">
+        <h4 class="italique">« C’est cette course qui m’a donné le goût du large. Je n’oublierai jamais. »</h4>
+        <p class="italique">Ellen Mac Arthur</p>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="section blue" id="mapmonde-bg">
+<div class="section-blue" id="mapmonde-bg">
   <div id="mapmonde-item">
     <%= image_tag "mapmonde.svg" %>
   </div>
@@ -69,7 +71,7 @@ description: Matthieu Perraut est un jeune navigateur qui a un objectif, être a
   </div>
 </div>
 
-<div class="section blue">
+<div class="section-blue">
   <div id="skipper-bg">
     <div class="skipper-photo-item center-align">
       <%= image_tag "round-skipper.jpg", id: "photo-matthieu", class: "responsive-img" %>

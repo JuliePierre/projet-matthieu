@@ -1,0 +1,25 @@
+.container {
+  width: 90%;
+}
+.small-container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  @media (min-width: $medium-screen-up) {
+    width: 75%;
+  }
+  @media (min-width: $large-screen-up) {
+    width: 60%;
+  }
+}
+.very-small-container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  @media (min-width: $medium-screen-up) {
+    width: 55%;
+  }
+  @media (min-width: $large-screen-up) {
+    width: 40%;
+  }
+}

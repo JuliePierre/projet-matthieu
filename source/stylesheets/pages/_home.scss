@@ -1,33 +1,25 @@
-#first-full-width {
-  max-width: 1440;
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
+// Banner
 #parallax-page-index {
   height: 100vh;
   .row {
     width: 100%;
   }
 }
-
 #video-cover {
   min-height: 100%;
   min-width: 100%;
 }
 
-#first-content {
-  padding: 15px 80px;
+// Presentation
+#presentation-infos-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .flex-item {
+    flex: 0 0 33%;
+  }
 }
-
-#mini-transat-bg {
-  background-repeat:no-repeat;
-  background-size: cover;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 #mapmonde-bg {
   display: flex;
   align-items: center;
