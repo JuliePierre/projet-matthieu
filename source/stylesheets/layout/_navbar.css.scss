@@ -54,6 +54,20 @@ nav {
 #navbar-links-container {
   flex: 0 0 75%;
 }
+// gestion de la barre de la home page qui n'apparait qu'au scroll //
+nav {
+  position: fixed;
+  z-index: 2000;
+}
+#index-navbar {
+  opacity: 0;
+  margin-top: -70px;
+  transition: opacity 0.6s ease-out, margin 0.6s ease-out;
+}
+#index-navbar.visible {
+  opacity: 1;
+  margin-top: 0 !important;
+}
 
 // .navbar {
 //   padding-left: 1rem;
@@ -148,11 +162,3 @@ nav {
 }
 // Navbar de la page d'accueil qui descend au scroll
 
-#index-navbar {
-  position: fixed;
-}
-
-.index.navbar {
-  opacity: 0;
-  margin-top: -70px !important;
-}

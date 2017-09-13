@@ -10,24 +10,17 @@ $(document).ready(function() {
       $(item).removeClass('active');
     };
   });
-
   $(window).scroll(function () {
     if ($(window).scrollTop() > 65) {
-      $('#index-navbar').removeClass('index');
+      $('#index-navbar').addClass('visible');
     }
   });
-
   $('#parallax-page-index').mousemove(function(event) {
-    // $('#index-navbar').removeClass('index');
     $('#scrolldown-home').removeClass('hidden');
-    // $('html, body').animate({
-    //   scrollTop: $('#first-content').offset().top
-    // }, 'slow');
   });
-
   $('#scrolldown-home').click(function() {
     console.log('test');
-    var target = $('#first-content').offset().top;
+    var target = $('#first-content').offset().top - 75;
     $('html, body').animate({ scrollTop: target }, 'slow');
   })
 });
