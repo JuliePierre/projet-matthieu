@@ -1,0 +1,68 @@
+// page projet
+#projet-introduction {
+  text-align: justify;
+}
+#objectif-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .flex-item {
+    flex: 0 0 50%;
+    img {
+      float: right;
+      height: auto;
+      width: 400px;
+    }
+  }
+}
+#partenariat-image {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    height: auto;
+    width: 600px;
+  }
+}
+
+.le-bateau {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  max-width: 220px;
+  text-align: left;
+  @media (max-width: $small-screen) {
+    left: 40%;
+  }
+}
+
+.association {
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  text-align: left;
+  p {
+    margin: 0px;
+  }
+  @media (max-width: $small-screen) {
+    top: 68%;
+  }
+}
+
+.entreprise {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  text-align: left;
+  max-width: 315px;
+  p {
+    margin: 0px;
+  }
+  @media (max-width: $small-screen) {
+    top: 68%;
+    left: 7%;
+    max-width: 45%;
+  }
+}
