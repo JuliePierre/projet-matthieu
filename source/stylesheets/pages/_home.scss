@@ -20,18 +20,18 @@
     flex: 0 0 33%;
   }
 }
-#mapmonde-bg {
+#mapmonde-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 30px 80px;
-  h4 {
+  padding: 1rem 0;
+  h3 {
     margin-top: 35px;
     margin-bottom: 35px;
   }
   @media (max-width: $small-screen) {
-    h4 {
+    h3 {
     margin-top: 15px;
     margin-bottom: 15px;
     }
@@ -40,16 +40,17 @@
 
 #mapmonde-item {
   flex: 0 0 50%;
+  text-align: center;
   @media (max-width: $small-screen) {
     flex: 0 0 80%;
   }
   img {
-    max-height: 400px;
-    width: auto;
+    height: auto;
+    width: 400px;
   }
 }
 
-#mapmonde-content-1, #mapmonde-content-2 {
+#mapmonde-content {
   flex: 0 0 25%;
   @media (max-width: $small-screen) {
     flex: 0 0 50%;
@@ -78,6 +79,7 @@
   flex-wrap: wrap;
   .skipper-bg-item {
     flex: 0 0 50%;
+    text-align: justify;
     @media (max-width: $small-screen) {
       flex: 0 0 80%;
     }
@@ -93,10 +95,10 @@
 #photo-matthieu {
   border-radius: 50%;
   border: 2px solid white;
-  max-height: 400px;
-  width: auto;
+  height: auto;
+  width: 400px;
   @media (max-width: $small-screen) {
-    height: auto;
+    width: auto;
   }
 }
 
