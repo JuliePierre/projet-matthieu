@@ -25,9 +25,9 @@ $(document).ready(function() {
     // }, 'slow');
   });
 
-  $('#scrolldown-home').click(function(event) {
-    var targetPosition = $('#first-content').offset().top;
-    var target = $('#first-content').offset().top - targetPosition;
+  $('#scrolldown-home').click(function() {
+    console.log('test');
+    var target = $('#first-content').offset().top;
     $('html, body').animate({ scrollTop: target }, 'slow');
   })
 });

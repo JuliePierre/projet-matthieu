@@ -5,83 +5,130 @@ nav {
   .button-collapse {
     float: right !important;
   }
-  line-height: 5rem !important;
+  height: 75px;
+  line-height: 75px;
 }
-
 .navbar {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  height: 100%;
+  padding: 1rem 0;
+  margin-bottom: 0 !important;
   background-color: $dark-blue;
-  transition: opacity 0.6s ease-out, margin 0.6s ease-out;
-  z-index: 1;
-  box-shadow: unset;
-  height: 5rem !important;
-  max-width: 100% !important;
 }
-
-#menu-links {
+.navbar .container {
+  height: 100%;
+}
+#navbar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  height: 5rem;
 }
-
-nav ul a {
-  transition: background-color .3s;
-  font-size: 1rem;
-  color: white;
-  display: block;
-  padding: 0 0.2rem;
-  margin: 0 0.5rem;
-  cursor: pointer;
-  border-bottom: 3px solid transparent;
+.menu-link {
+  display: inline;
   line-height: 1.8;
+  a {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+  a.active {
+    border-bottom: 3px solid #C43433;
+  }
 }
-
-nav ul a.active {
-  border-bottom: 3px solid $brand-red;
-}
-
-
-
-#programme-navbar {
-  position: absolute;
-  top: 0px;
-}
-
 #brand-section {
   display: flex;
   align-items: center;
-  position: relative;
-  height: 5rem !important;
+  justify-content: space-around;
+  flex: 0 0 25%;
   #logo-bateau {
-    background-color: $dark-blue;
+    background-color: #023351;
     border-radius: 50%;
     width: 6rem;
     height: auto;
     position: relative;
-    top: 0.5rem
+    top: 0.5rem;
   }
   #brand-name {
-    color: white;
-    display: inline-block;
+    flex: 0 0 50%;
     font-size: 1.2rem;
-    padding: 0;
-    white-space: nowrap;
-    margin-left: 1rem;
-    @media (max-width: $small-screen) {
-      font-size: 1rem;
-      margin-left: 0px;
-      margin-top: -10px;
-    }
-  }
-  #redirection-home {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
   }
 }
+#navbar-links-container {
+  flex: 0 0 75%;
+}
+
+// .navbar {
+//   padding-left: 1rem;
+//   padding-right: 1rem;
+//   background-color: $dark-blue;
+//   transition: opacity 0.6s ease-out, margin 0.6s ease-out;
+//   z-index: 1;
+//   box-shadow: unset;
+//   height: 5rem !important;
+//   max-width: 100% !important;
+// }
+
+// #menu-links {
+//   display: flex;
+//   align-items: center;
+//   height: 5rem;
+// }
+
+// nav ul a {
+//   transition: background-color .3s;
+//   font-size: 1rem;
+//   color: white;
+//   display: block;
+//   padding: 0 0.2rem;
+//   margin: 0 0.5rem;
+//   cursor: pointer;
+//   border-bottom: 3px solid transparent;
+//   line-height: 1.8;
+// }
+
+// nav ul a.active {
+//   border-bottom: 3px solid $brand-red;
+// }
+
+
+
+// #programme-navbar {
+//   position: absolute;
+//   top: 0px;
+// }
+
+// #brand-section {
+//   display: flex;
+//   align-items: center;
+//   position: relative;
+//   height: 5rem !important;
+//   #logo-bateau {
+//     background-color: $dark-blue;
+//     border-radius: 50%;
+//     width: 6rem;
+//     height: auto;
+//     position: relative;
+//     top: 0.5rem
+//   }
+//   #brand-name {
+//     color: white;
+//     display: inline-block;
+//     font-size: 1.2rem;
+//     padding: 0;
+//     white-space: nowrap;
+//     margin-left: 1rem;
+//     @media (max-width: $small-screen) {
+//       font-size: 1rem;
+//       margin-left: 0px;
+//       margin-top: -10px;
+//     }
+//   }
+//   #redirection-home {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//   }
+// }
 
 .side-nav {
   background-color: $dark-blue !important;

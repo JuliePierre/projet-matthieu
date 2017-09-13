@@ -1,34 +1,23 @@
-<nav id="<%= page_classes %>-navbar", class="<%= page_classes %> navbar">
-  <div class="row unpadded unmargined">
-    <div class="col s8 col m3">
+<nav id="<%= page_classes %>-navbar">
+  <div class="navbar">
+    <div class="container" id="navbar">
       <div id="brand-section">
-        <a href="/" id="redirection-home"></a>
         <%= image_tag "bateau-logo.svg", id: "logo-bateau", class: "responsive-img" %>
         <a href="/" id="brand-name">Matthieu Perraut</a>
       </div>
-    </div>
-    <div class="col s4 col m9" style="float: left;">
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down" id="menu-links">
-        <li><%= link_to "Accueil", "index.html", 'data-info': "index" %></li>
-        <li><%= link_to "La Mini Transat", "minitransat.html", 'data-info': "minitransat" %></li>
-        <li><%= link_to "Le projet", "projet.html", 'data-info': "projet" %></li>
-        <li><%= link_to "Le programme", "programme.html", 'data-info': "programme" %></li>
-        <li><%= link_to "Le bateau", "bateau.html", 'data-info': "bateau" %></li>
-        <li><%= link_to "L'équipe", "equipe.html", 'data-info': "equipe" %></li>
-        <li><%= link_to "Actualités", "actualites.html", 'data-info': "actualites" %></li>
-        <li><%= link_to "Les partenaires", "partenaires.html", 'data-info': "partenaires" %></li>
-      </ul>
+      <div id="navbar-links-container">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down" id="menu-links">
+          <li class="menu-link"><%= link_to "Accueil", "index.html", 'data-info': "index" %></li>
+          <li class="menu-link"><%= link_to "La Mini Transat", "minitransat.html", 'data-info': "minitransat" %></li>
+          <li class="menu-link"><%= link_to "Le projet", "projet.html", 'data-info': "projet" %></li>
+          <li class="menu-link"><%= link_to "Le programme", "programme.html", 'data-info': "programme" %></li>
+          <li class="menu-link"><%= link_to "Le bateau", "bateau.html", 'data-info': "bateau" %></li>
+          <li class="menu-link"><%= link_to "L'équipe", "equipe.html", 'data-info': "equipe" %></li>
+          <li class="menu-link"><%= link_to "Actualités", "actualites.html", 'data-info': "actualites" %></li>
+          <li class="menu-link"><%= link_to "Les partenaires", "partenaires.html", 'data-info': "partenaires" %></li>
+        </ul>
+      </div>
     </div>
   </div>
-  <ul class="side-nav" id="mobile-demo">
-    <li><%= link_to "Accueil", "index.html", 'data-info': "index" %></li>
-    <li><%= link_to "La Mini Transat", "minitransat.html", 'data-info': "minitransat", class: "brand-red-text" %></li>
-    <li><%= link_to "Le projet", "projet.html", 'data-info': "projet" %></li>
-    <li><%= link_to "Le programme", "programme.html", 'data-info': "programme" %></li>
-    <li><%= link_to "Le bateau", "bateau.html", 'data-info': "bateau" %></li>
-    <li><%= link_to "L'équipe", "equipe.html", 'data-info': "equipe" %></li>
-    <li><%= link_to "Actualités", "actualites.html", 'data-info': "actualites" %></li>
-    <li><%= link_to "Les partenaires", "partenaires.html", 'data-info': "partenaires" %></li>
-  </ul>
 </nav>
