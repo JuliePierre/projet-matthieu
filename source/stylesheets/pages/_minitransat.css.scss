@@ -4,9 +4,15 @@
     margin-bottom: 1.4rem;
     .col:first-child {
       padding: 0 1rem 0 0;
+      @media (max-width: $small-screen) {
+        padding: 0;
+      }
     }
     .col:last-child {
       padding: 0 0 0 1rem;
+      @media (max-width: $small-screen) {
+        padding: 0;
+      }
     }
   }
   // @media (max-width: $small-screen) {
@@ -39,6 +45,9 @@
   text-align: center;
   h2 {
     font-size: 3rem;
+    @media (max-width: $small-screen) {
+      font-size: 1.2rem;
+    }
     margin-bottom: 0;
     margin-top: 3rem;
   }
