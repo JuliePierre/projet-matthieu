@@ -1,0 +1,8 @@
+#team-presentation {
+  display: flex;
+  align-item: center;
+  justify-content: space-between;
+  .flex-item {
+    flex: 0 0 50%;
+  }
+}
