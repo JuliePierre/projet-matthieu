@@ -1,10 +1,14 @@
 // EQUIPE
 #team-presentation {
   display: flex;
-  align-item: center;
+  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   .flex-item {
     flex: 0 0 50%;
+    @media (max-width: $small-screen) {
+      flex: 0 0 100%;
+    }
   }
 }
 .team-members {
