@@ -44,6 +44,9 @@
   left: 70%;
   max-width: 220px;
   text-align: left;
+  @media (max-width: $medium-screen) {
+    top: 0;
+  }
   @media (max-width: $small-screen) {
     left: 40%;
     top: -28%;
@@ -57,6 +60,10 @@
   text-align: left;
   p {
     margin: 0px;
+  }
+  @media (max-width: $medium-screen) {
+    top: 90%;
+    left: 80%;
   }
   @media (max-width: $small-screen) {
     top: 90%;
@@ -72,6 +79,10 @@
   max-width: 315px;
   p {
     margin: 0px;
+  }
+  @media (max-width: $medium-screen) {
+    top: 38%;
+    left: 0%;
   }
   @media (max-width: $small-screen) {
     top: 90%;

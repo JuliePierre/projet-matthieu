@@ -1,4 +1,3 @@
-
 .titre-rhino {
   text-align: left;
   font-style: italic;
@@ -69,4 +68,12 @@
 }
 #vectoriel-bateau {
    width: 100%;
+}
+#bateau-section-blue {
+  @media (max-width: $medium-screen) {
+    padding: 20rem 0;
+  }
+  @media (max-width: $small-screen) {
+    padding: 1rem 0;
+  }
 }

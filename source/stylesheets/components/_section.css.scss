@@ -5,3 +5,12 @@
 .section-image {
   padding: 2rem 0;
 }
+
+#partenaires-section-image {
+  @media (max-width: $medium-screen) {
+    padding: 16rem 0;
+  }
+  @media (max-width: $small-screen) {
+    padding: 2rem 0;
+  }
+}

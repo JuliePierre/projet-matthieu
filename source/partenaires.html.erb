@@ -10,14 +10,14 @@ description: Découvrez les partenaires et soutiens du projet.
     </div>
   </div>
 
-  <div class="section-image" style="background: url('<%= image_path "resized-banner-partenaires.jpg"%>') no-repeat; background-position: center;">
+  <div id="partenaires-section-image" class="section-image" style="background: url('<%= image_path "resized-banner-partenaires.jpg"%>'); background-repeat: no-repeat; background-size: cover; background-position: center;">
     <div class="container">
       <div id="contact-form-partenaires">
         <h3 class="center-align">Vous souhaitez en savoir plus sur le projet ? Contactez-nous.</h3>
         <br>
         <br>
         <div class="row">
-          <div class="col s10 offset-s1 col m4 offset-m4">
+          <div class="col s10 offset-s1 col m8 offset-m2">
             <form action="https://formspree.io/julie.pierre3@gmail.com"
               method="POST">
               <input type="text" name="name" placeholder="Votre nom" class="form-control" id="nom-utilisateur" required>
