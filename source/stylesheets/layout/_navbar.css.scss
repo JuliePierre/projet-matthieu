@@ -7,6 +7,10 @@ nav {
   }
   height: 75px;
   line-height: 75px;
+  @media (max-width: $small-screen) {
+    height: 58px;
+    line-height: 58px;
+  }
   top: 0;
   position: fixed;
   z-index: 2000;
@@ -41,6 +45,9 @@ nav {
   align-items: center;
   justify-content: space-around;
   flex: 0 0 25%;
+  @media (max-width: $small-screen) {
+    flex: 0 0 80%;
+  }
   #logo-bateau {
     background-color: #023351;
     border-radius: 50%;
@@ -56,6 +63,9 @@ nav {
 }
 #navbar-links-container {
   flex: 0 0 75%;
+  @media (max-width: $small-screen) {
+    flex: 0 0 20%;
+  }
 }
 // gestion de la barre de la home page qui n'apparait qu'au scroll //
 #index-navbar {

@@ -12,14 +12,6 @@ $dark-blue: #023351;
 $brand-red: #C43433;
 
 
-$small-screen: 320px !default; // Iphone 5 --> pas de flexbox, 2 div
-$small-screen2: 414px !default; // Iphone 6 + --> pas de flexbox, 2 div
-$inter-screen: 768px !default; // IPAD --> idem
-$medium-screen-down: 1023px !default; // inférieur à IPAD PRO --> pour les mobiles et l'ipad
-$medium-screen: 1024px !default; // IPAD PRO --> comme desktop
-$medium-screen-up: 1025px !default;
-$small-screen-up: 321px !default;
-
 
 @media only screen and (min-width: 0) {
   /* line 6, /usr/local/opt/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/materialize-sass-0.97.8/app/assets/stylesheets/materialize/components/_typography.scss */
@@ -86,6 +78,9 @@ body {
 }
 .main-body {
   margin-top: 75px;
+  @media (max-width: $small-screen) {
+    margin-top: 58px;
+  }
 }
 
 /* ==========================================================================

@@ -18,6 +18,9 @@
   justify-content: space-around;
   .flex-item {
     flex: 0 0 33%;
+    @media (max-width: $small-screen) {
+      flex: 0 0 100%;
+    }
   }
 }
 #mapmonde-container {
@@ -42,18 +45,22 @@
   flex: 0 0 50%;
   text-align: center;
   @media (max-width: $small-screen) {
-    flex: 0 0 80%;
+    flex: 0 0 100%;
   }
   img {
     height: auto;
     width: 400px;
+    @media (max-width: $small-screen) {
+      width: 80%;
+    }
   }
 }
 
 #mapmonde-content {
   flex: 0 0 25%;
   @media (max-width: $small-screen) {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
+    text-align: center;
   }
   display: flex;
   flex-direction: column;
@@ -93,6 +100,9 @@
 
 .sailing-icons {
   width: 225px;
+  @media (max-width: $small-screen) {
+    width: 120px;
+  }
   height: auto;
 }
 
@@ -175,10 +185,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  @media (max-width: $inter-screen) {
-    background-attachment: initial;
-  }
-  @media (max-width: $small-screen2) {
+  @media (max-width: $small-screen) {
     background-attachment: initial;
   }
   .row:last-child {

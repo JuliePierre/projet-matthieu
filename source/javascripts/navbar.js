@@ -19,8 +19,9 @@ $(document).ready(function() {
     $('#scrolldown-home').removeClass('hidden');
   });
   $('#scrolldown-home').click(function() {
-    console.log('test');
-    var target = $('#first-content').offset().top - 75;
+    var navbarHeight = $('nav').height();
+    console.log(navbarHeight);
+    var target = $('#first-content').offset().top - navbarHeight;
     $('html, body').animate({ scrollTop: target }, 'slow');
   })
 });

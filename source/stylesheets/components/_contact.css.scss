@@ -1,8 +1,15 @@
 #contact-form {
   margin-top: 100px;
+  @media (max-width: $small-screen) {
+    margin-top: 0;
+  }
   .row {
     margin: 0px !important;
     padding: 40px 0px;
+    @media (max-width: $small-screen) {
+      margin: 0;
+      padding: 0;
+    }
   }
 }
 
