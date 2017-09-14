@@ -211,37 +211,3 @@
     padding: 0px 20px;
   }
 }
-
-// EQUIPE
-#team-presentation {
-  display: flex;
-  align-item: center;
-  justify-content: space-between;
-  .flex-item {
-    flex: 0 0 50%;
-  }
-}
-.team-members {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
-  .team-members-photo {
-    flex: 0 0 30%;
-  }
-  .team-members-description {
-    flex: 0 0 65%;
-  }
-  h3 {
-    margin-bottom: 0px;
-  }
-  p {
-    margin-top: 0px;
-  }
-  @media (max-width: $small-screen) {
-    margin-bottom: 2em;
-    justify-content: space-around;
-    text-align: center;
-  }
-}
