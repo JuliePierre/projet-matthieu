@@ -1,0 +1,24 @@
+.logo-section .small-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo-container {
+    flex: 0 0 30%;
+    position: relative;
+    img {
+      height: 100%;
+    }
+  }
+  .partenaire-presentation {
+    flex: 0 0 60%;
+  }
+}
+.partenaire-link {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
