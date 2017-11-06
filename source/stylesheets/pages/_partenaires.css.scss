@@ -8,6 +8,10 @@
     position: relative;
     img {
       height: 100%;
+      transition: all 0.3s;
+    }
+    &:hover img {
+      transform: scale(1.1);
     }
   }
   .partenaire-presentation {
@@ -22,3 +26,4 @@
   right: 0;
   left: 0;
 }
+
