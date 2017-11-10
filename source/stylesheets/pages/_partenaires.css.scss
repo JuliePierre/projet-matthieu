@@ -3,12 +3,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+    @media (max-width: $small-screen) {
+      width: 70%;
+    }
   .logo-container {
     flex: 0 0 30%;
     position: relative;
+    @media (max-width: $small-screen) {
+      flex: 0 0 100%;
+    }
     img {
       height: 100%;
       transition: all 0.3s;
+      @media (max-width: $small-screen) {
+        width: 100%;
+      }
     }
     &:hover img {
       transform: scale(1.1);
@@ -16,6 +26,9 @@
   }
   .partenaire-presentation {
     flex: 0 0 60%;
+    @media (max-width: $small-screen) {
+      flex: 0 0 100%;
+    }
   }
 }
 .partenaire-link {
