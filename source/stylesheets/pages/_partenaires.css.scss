@@ -14,7 +14,7 @@
       flex: 0 0 100%;
     }
     img {
-      height: 100%;
+      width: 100%;
       transition: all 0.3s;
       @media (max-width: $small-screen) {
         width: 100%;
@@ -39,4 +39,35 @@
   right: 0;
   left: 0;
 }
-
+#sponsor-titre-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 25% 25%;
+  &:hover img {
+    transform: none;
+  }
+  img {
+    width: 100%;
+    transition: none;
+  }
+}
+.big-logo-container {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+}
+#first-logo {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+#second-logo {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+#third-logo {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+}
+#fourth-logo {
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 1;
+}
