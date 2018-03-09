@@ -238,3 +238,14 @@
   height: auto;
   display: block;
 }
+#blog-background {
+  position: absolute;
+  top: 15%;
+  left: calc(50% - 170px);
+}
+#fond-blog {
+  width: 100vw;
+}
+.blog-wrapper {
+  position: relative;
+}

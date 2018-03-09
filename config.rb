@@ -9,6 +9,8 @@
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
+page "/blog.html", :layout => "blog"
+
 #
 # A path which all have the same layout
 # with_layout :admin do

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+    <title><%= current_page.data.title || "Matthieu Perraut - Objectif Mini Transat" %></title>
+    <meta name="description" content="<%= current_page.data.description || "Matthieu Perraut embarque sur un Mini de 6,50m pour une traversée de l'Atlantique. Suivez et soutenez son projet." %>">
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+    <script src="https://use.fontawesome.com/a05871269c.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <%= yield %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-97729145-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
