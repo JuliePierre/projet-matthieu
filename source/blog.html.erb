@@ -1,19 +1,14 @@
-<div class="blog-wrapper">
-  <%= image_tag "blog-mini-transat.jpg", id: "fond-blog" %>
-  <div id="blog-background">
-    <div class="fb-page" data-href="https://www.facebook.com/Mini825MatthieuPerraut/" data-tabs="timeline" data-width="340" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-      <blockquote cite="https://www.facebook.com/Mini825MatthieuPerraut/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mini825MatthieuPerraut/">Matthieu Perraut - Mini Transat 2019</a></blockquote>
-    </div>
+<div id="blog-wrapper" style="background-image: url('<%= image_path "blog-mini-transat.jpg"%>');">
+  <div class="plugin-container">
+    <div class="fb-page" data-href="https://www.facebook.com/Mini825MatthieuPerraut/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mini825MatthieuPerraut/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mini825MatthieuPerraut/">Matthieu Perraut - Mini Transat 2019</a></blockquote></div>
   </div>
-
 </div>
 
-
 <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.11&appId=284972408678544&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.12&appId=568242163523197&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
