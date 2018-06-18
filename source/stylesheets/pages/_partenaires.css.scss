@@ -1,3 +1,8 @@
+.logo-section {
+  @media (max-width: $small-screen) {
+    padding: 2rem 0;
+  }
+}
 .logo-section .small-container {
   height: 300px;
   display: flex;
@@ -30,6 +35,9 @@
       flex: 0 0 100%;
     }
   }
+}
+.small-logo-container {
+  padding: 2rem;
 }
 .partenaire-link {
   position: absolute;

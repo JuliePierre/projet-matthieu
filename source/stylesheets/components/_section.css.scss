@@ -19,3 +19,14 @@
     padding: 2rem 0;
   }
 }
+.full-height-image {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.full-page-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+}

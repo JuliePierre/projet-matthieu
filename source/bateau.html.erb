@@ -7,33 +7,22 @@ description: Découvrez le Mini de Matthieu, une machine de course de seulement 
   <div class="section-blue" id="bateau-section-blue">
     <div class="small-container">
       <div id="bateau-content">
-        <div class="flex-container" id="bateau-first-flexbox">
-          <div class="infos-bateau">
-            <h2 class="titre-rhino brand-red-text">Rhino !</h2>
-            <p class="justified-content">Machines de courses de seulement 6.50m, les minis ont toujours été le laboratoire de la course au large. Profitant d’un rapport poids / puissance imbattable, ce sont des bateaux exigeants qui filent à plus de vingt nœuds dans de longs surfs et sont conçus pour aller affronter l’Atlantique !</p>
-            <br>
-            <p class="justified-content">Deux catégories se distinguent : les protos d'une part, laboratoires d'innovations depuis de nombreuses années et les séries d'autre part, des bateaux plus raisonnables et abordables mais surtout aux performances relativement équivalentes entre eux, ce qui rend la compétition aussi haletante.</p>
-            <br>
-            <p class="justified-content">Mon bateau est un Nacira 6.50. Il a été construit en 2012. Mini de série d'avant dernière génération, il est fiable, marin et performant. Il s'appelle Rhino !</p>
-          </div>
-          <div class="dessin-bateau">
-            <%= image_tag "bateau-dessin-plan.png", id: "vectoriel-bateau" %>
-          </div>
+        <h2 class="titre-rhino brand-red-text">Rhino !</h2>
+        <p class="justified-content">Machines de courses de seulement 6.50m, les minis ont toujours été le laboratoire de la course au large. Profitant d’un rapport poids / puissance imbattable, ce sont des bateaux exigeants qui filent à plus de vingt nœuds dans de longs surfs et sont conçus pour aller affronter l’Atlantique !</p>
+        <br>
+        <p class="justified-content">Deux catégories se distinguent : les protos d'une part, laboratoires d'innovations depuis de nombreuses années et les séries d'autre part, des bateaux plus raisonnables et abordables mais surtout aux performances relativement équivalentes entre eux, ce qui rend la compétition aussi haletante.</p>
+        <br>
+        <p class="justified-content">Mon bateau est un Nacira 6.50. Il a été construit en 2012. Mini de série d'avant dernière génération, il est fiable, marin et performant. Il s'appelle Rhino !</p>
+      </div>
+      <div id="bateau-maquettes">
+        <div class="maquette-container maquette-first">
+          <%= image_tag "maquette-bateau-mini-transat.png" %>
         </div>
-        <div class="flex-container" id="bateau-second-flexbox">
-          <div id="rhino-infos">
-            <p>Longueur : 6,50m</p>
-            <p>Largeur : 3,00m</p>
-            <p>Tirant d’eau : 1,60m</p>
-            <p>Tirant d’air : 12,00m</p>
-            <p>Poids : 900kg</p>
-            <p>Surface de voiles : 100m2</p>
-          </div>
-          <div class="rhino-coupe">
-            <%= image_tag "bateau-dessin-coupe.png", id: "coupe-bateau" %>
-          </div>
+        <div class="maquette-container maquette-second">
+          <%= image_tag "maquette-mini-batisseurs-avenir.png" %>
         </div>
       </div>
     </div>
   </div>
+  <div class="full-page-image" style="background-image: url('<%= image_path 'photo-mini-6.50-rhino.jpg' %>')"></div>
 </div>

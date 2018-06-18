@@ -16,17 +16,21 @@ description: Découvrez les partenaires et soutiens du projet.
           <div class="big-logo-container">
             <%= image_tag "logo-batisseurs-davenir.png" %>
           </div>
-          <div id="first-logo">
+          <div class="link-container" id="first-logo">
             <%= image_tag "logo-bati-nantes.png" %>
+            <a href="https://www.batinantes.fr/" class="card-link" target="_blank"></a>
           </div>
-          <div id="second-logo">
+          <div class="link-container" id="second-logo">
             <%= image_tag "logo-bati-lyon.png" %>
+            <a href="https://batilyonpromotion.fr/" class="card-link" target="_blank"></a>
           </div>
-          <div id="third-logo">
+          <div class="link-container" id="third-logo">
             <%= image_tag "logo-bati-armor.png" %>
+            <a href="https://www.batiarmor.fr/" class="card-link" target="_blank"></a>
           </div>
-          <div id="fourth-logo">
+          <div class="link-container" id="fourth-logo">
             <%= image_tag "logo-bati-amenagement.png" %>
+            <a href="https://batiamenagement.fr/" class="card-link" target="_blank"></a>
           </div>
         </div>
         <div class="partenaire-presentation" style="color: #00476F">
@@ -38,7 +42,7 @@ description: Découvrez les partenaires et soutiens du projet.
     </div>
     <div class="logo-section" style="background-color: #023351">
       <div class="small-container">
-        <div class="logo-container">
+        <div class="logo-container small-logo-container">
           <%= image_tag "helly-hansen-logo.png" %>
           <a href="https://www.hellyhansen.com/fr_fr/" target="_blank" class="partenaire-link" ></a>
         </div>
@@ -62,12 +66,12 @@ description: Découvrez les partenaires et soutiens du projet.
     <div class="logo-section" style="background-color: white">
       <div class="small-container">
         <div class="logo-container">
-          <%= image_tag "naoned.svg" %>
-          <a href="http://www.naonedeyewear.bzh/" target="_blank" class="partenaire-link"></a>
+          <%= image_tag "logo-profurl.jpg" %>
+          <a href="http://www.profurl.com/" target="_blank" class="partenaire-link"></a>
         </div>
         <div class="partenaire-presentation" style="color: #00476F">
-          <p>Montures de lunettes, rêvées, dessinées, manufacturées à Nantes. Un maître mot pour définir cette aventure : la passion ! Eux aussi ont tout quitté pour se lancer dans cette aventure hors du commun !</p>
-          <p>Naoned : Paris - New York - Bruxelles - Le Guilvinec</p>
+          <p>Le spécialiste des systèmes d'enroulement de voile</p>
+          <p>Depuis plus de 30 ans, Profurl conçoit, développe et commercialise des produits destinés à vous offrir le meilleur de la technologie, mais aussi de sécurité, facilité de navigation et performance.</p>
         </div>
       </div>
     </div>
@@ -82,9 +86,21 @@ description: Découvrez les partenaires et soutiens du projet.
         </div>
       </div>
     </div>
-    <div class="logo-section" style="background-color: white">
+    <div class="logo-section" style="background-color: #C43433">
       <div class="small-container">
         <div class="logo-container">
+          <%= image_tag "naoned.svg" %>
+          <a href="http://www.naonedeyewear.bzh/" target="_blank" class="partenaire-link"></a>
+        </div>
+        <div class="partenaire-presentation" style="color: white">
+          <p>Montures de lunettes, rêvées, dessinées, manufacturées à Nantes. Un maître mot pour définir cette aventure : la passion ! Eux aussi ont tout quitté pour se lancer dans cette aventure hors du commun !</p>
+          <p>Naoned : Paris - New York - Bruxelles - Le Guilvinec</p>
+        </div>
+      </div>
+    </div>
+    <div class="logo-section" style="background-color: white">
+      <div class="small-container">
+        <div class="logo-container small-logo-container">
           <%= image_tag "lemee.svg" %>
           <a href="http://www.eurodrapeau.com/" target="_blank" class="partenaire-link"></a>
         </div>
@@ -100,7 +116,7 @@ description: Découvrez les partenaires et soutiens du projet.
       <h2 class="center-align">Devenez partenaire du projet et embarquez dans<span class="brand-red-text gras"> l'aventure</span> !</h2>
     </div>
   </div>
-  <div id="partenaires-section-image" class="section-image" style="background: url('<%= image_path "resized-banner-partenaires.jpg"%>'); background-repeat: no-repeat; background-size: auto; background-position: center; background-attachment: fixed;">
+  <div id="partenaires-section-image" class="section-image" style="background: url('<%= image_path "mini-transat-partenaires-matthieu-perraut.jpg"%>'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;">
     <div class="container">
       <div id="contact-form-partenaires">
         <h3 class="center-align">Vous souhaitez en savoir plus sur le projet ? Contactez-nous.</h3>

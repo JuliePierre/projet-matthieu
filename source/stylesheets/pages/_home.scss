@@ -1,9 +1,15 @@
 // Banner
 #parallax-page-index {
   height: 100vh;
-  .row {
-    width: 100%;
-  }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#homepage-title {
+  flex: 0 0 60%;
 }
 #video-cover {
   min-height: 100%;
