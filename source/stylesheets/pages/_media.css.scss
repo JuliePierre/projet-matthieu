@@ -2,10 +2,30 @@
   background-size: cover;
   height: 280px;
   background-position: center center;
+  @media (max-width: $small-screen) {
+    height: 200px;
+    flex: 0 0 49%;
+    margin-bottom: 8px;
+  }
 }
 .video-container {
   border: 2px solid white;
 }
 #media-photos-container {
   margin-bottom: 60px;
+}
+.episode-container {
+  flex: 0 0 48%;
+  padding-bottom: 40px;
+  @media (max-width: $small-screen) {
+    flex: 0 0 99%;
+  }
+}
+.carousel-slick {
+  @media (max-width: $small-screen) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 8px;
+  }
 }
