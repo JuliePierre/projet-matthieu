@@ -25,6 +25,14 @@
 }
 .link-container {
   position: relative;
+  img {
+    transition: all 0.3s;
+  }
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
 }
 .card-link {
   position: absolute;

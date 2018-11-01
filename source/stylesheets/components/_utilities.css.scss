@@ -1,0 +1,11 @@
+.text-center {
+  text-align: center;
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexbox.flex-wrap {
+  flex-wrap: wrap;
+}

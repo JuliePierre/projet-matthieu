@@ -33,37 +33,38 @@ $brand-red: #C43433;
 body {
   color: white;
   font-family: 'Futura', 'Muli', sans-serif;
-    h1 {
-      font-size: 2rem;
-      margin: 1.78rem 0 1.424rem 0;
-    }
-    h1.big-title {
-      font-size: 2.5rem;
-      font-weight: 700;
-    }
-    h2 {
-      font-size: 2rem;
-    }
-    h3 {
-      font-size: 1.5rem;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    h4 {
-      font-size: 1.2rem;
-    }
-    h5 {
-      font-size: 0.8rem;
-    }
-    h6 {
-      font-size: 0.6rem;
-    }
-    p {
-      font-size: 1rem;
-      margin: 0.5rem 0;
-      .small {
-        font-size: 0.8rem;
-      }
+  letter-spacing: 0.2px;
+  h1 {
+    font-size: 2rem;
+    margin: 1.78rem 0 1.424rem 0;
+  }
+  h1.big-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+  h6 {
+    font-size: 0.6rem;
+  }
+  p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  p.small {
+    font-size: 0.8rem;
   }
 }
 .main-body {
@@ -140,6 +141,9 @@ body {
 }
 .hidden {
   display: none;
+}
+.margin-bottom {
+  margin-bottom: 60px;
 }
 
 /* ==========================================================================
@@ -276,5 +280,3 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
     border-bottom: 1px solid red;
     box-shadow: 0 1px 0 0 red;
 }
-
-
