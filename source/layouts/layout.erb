@@ -8,16 +8,16 @@
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../images/favicon.png" />
     <title><%= current_page.data.title || "Matthieu Perraut - Objectif Mini Transat" %></title>
     <meta name="description" content="<%= current_page.data.description || "Matthieu Perraut embarque sur un Mini de 6,50m pour une traversée de l'Atlantique. Suivez et soutenez son projet." %>">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+
     <%= stylesheet_link_tag :site %>
     <%= javascript_include_tag :all %>
-    <script src="https://use.fontawesome.com/a05871269c.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-
   </head>
 
   <body class="<%= page_classes %>">
@@ -34,6 +34,5 @@
       ga('send', 'pageview');
 
     </script>
-
   </body>
 </html>
