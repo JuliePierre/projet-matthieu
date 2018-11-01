@@ -99,3 +99,16 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-track {
+  padding: 40px 0;
+}
+.slick-center {
+}
+.slick-center > div {
+  position: relative;
+  margin: -40px;
+}
+.slick-center .carousel-image-container {
+  transition: all ease 0.5s;
+  height: 360px;
+}
